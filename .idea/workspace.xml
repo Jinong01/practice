@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69f6e875-d5ea-40dc-962b-fbe03eae8d9b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mybatis_3_5_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-3.5.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql-connector-j-9.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/MainView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/UserVIew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/MysqlConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/Mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
-    </list>
+    <list default="true" id="69f6e875-d5ea-40dc-962b-fbe03eae8d9b" name="Changes" comment="Practice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Jinong01"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jinong01/practice.git",
+    "accountId": "4cea4377-3ade-4288-b0ef-cc89343be4da"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -110,7 +101,20 @@
       <option name="presentableId" value="Default" />
       <updated>1732363089376</updated>
     </task>
+    <task id="LOCAL-00001" summary="Practice">
+      <option name="closed" value="true" />
+      <created>1732385700151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732385700151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
