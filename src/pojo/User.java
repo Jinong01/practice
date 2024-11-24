@@ -2,13 +2,19 @@ package pojo;
 
 public class User {
     private int id;
-    private String user_id;
-    private String user_pwd;
+    private String userId;
+    private String userPwd;
 
-    public User(int id, String user_id, String user_pwd) {
+    public User(String userId, String userPwd) {
+        this.userId = userId;
+        this.userPwd = userPwd;
+    }
+
+
+    public User(int id, String userId, String userPwd) {
         this.id = id;
-        this.user_id = user_id;
-        this.user_pwd = user_pwd;
+        this.userId = userId;
+        this.userPwd = userPwd;
     }
 
     public User() {
@@ -22,28 +28,28 @@ public class User {
         this.id = id;
     }
 
-    public String getUser_id() {
-        return user_id;
+    public String getUserId() {
+        return userId;
     }
 
-    public void setUser_id(String user_id) {
-        this.user_id = user_id;
+    public void setUserId(String userId) {
+        this.userId = userId;
     }
 
-    public String getUser_pwd() {
-        return user_pwd;
+    public String getUserPwd() {
+        return userPwd;
     }
 
-    public void setUser_pwd(String user_pwd) {
-        this.user_pwd = user_pwd;
+    public void setUserPwd(String userPwd) {
+        this.userPwd = userPwd;
     }
 
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", user_id='" + user_id + '\'' +
-                ", user_pwd='" + user_pwd + '\'' +
+                ", userId='" + userId + '\'' +
+                ", userPwd='" + userPwd + '\'' +
                 '}';
     }
 }

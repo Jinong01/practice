@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69f6e875-d5ea-40dc-962b-fbe03eae8d9b" name="Changes" comment="Practice" />
+    <list default="true" id="69f6e875-d5ea-40dc-962b-fbe03eae8d9b" name="Changes" comment="Practice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/UserVIew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/UserVIew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/MysqlConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/MysqlConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,21 +30,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jinong01"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jinong01&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Jinong01/practice.git",
-    "accountId": "4cea4377-3ade-4288-b0ef-cc89343be4da"
+    "accountId": "82b364cc-1bb4-4779-941d-644abb03e99d"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2pFY38ouelhhqXnn0HbCIy1M4X5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,6 +58,7 @@
     "Application.Test.executor": "Debug",
     "Application.User.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",

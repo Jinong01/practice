@@ -7,17 +7,21 @@ import java.sql.ResultSet;
 
 public interface UserMapper {
 
-    @Select("select * from user where user_id = #{logId} and user_pwd = #{logPwd};")
-    Integer login (@Param("logId") String logID , @Param("logPwd") String logPwd);
+    @Select("select * from user where user_id = #{userId} and user_pwd = #{userPwd};")
+    User login (User user);
 
-    @Insert("insert into user (user_id , user_pwd) values ( #{user_id} , #{user_pwd} );")
-    void insert (@Param("user_id") String user_id , @Param("user_pwd") String user_pwd);
+    @Insert("insert into user (user_id , user_pwd) values ( #{userId} , #{userPwd} );")
+    void insert (User user);
 
-    @Delete("delete from user where user_pwd = #{user_pwd};")
-    void delete (String user_pwd);
+    @Delete("delete from user where user_id = #{id};")
+    void delete (String id);
 
-    @Update("update user set user_pwd = #{newPwd} where user_id = #{user_id} and user_pwd = #{nowPwd};")
-    void update (@Param("user_id")String user_id , @Param("nowPwd")String nowPwd , @Param("newPwd")String newPwd );
+    @Update("update user set user_pwd = #{newPwd} where user_id = #{userId} and user_pwd = #{nowPwd};")
+    void update (@Param("userId") String userId , @Param("nowPwd") String nowPwd , @Param("newPwd") String newPwd);
 
+    @Select("select count(id) from user")
+    Integer checkDb ();
 
+    @Select("select * from user where user_id = #{signId};")
+    Integer check(String signId);
 }

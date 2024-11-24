@@ -15,6 +15,8 @@ import static service.UserService.*;
 public class MainView {
     public Scanner sc = new Scanner(System.in);
     public UserVIew uv = new UserVIew();
+    public UserService us = new UserService();
+
     public void mainPage() throws IOException {
         while (true) {
             System.out.println("1.Sign up  2.Login  *.Exit");
@@ -30,23 +32,12 @@ public class MainView {
 
             switch (choose) {
                 case 1:
-                    System.out.println("New ID : "); String user_id = sc.next();
-                    System.out.println("New PWD : "); String user_pwd = sc.next();
-                    mapper().insert(user_id,user_pwd);
-                    System.out.println("Signup Success!!");
+                    us.signup();
                     break;
 
                 case 2:
-                    System.out.println("ID : "); String logId = sc.next();
-                    System.out.println("PWD : "); String logPwd = sc.next();
-                    Integer result = (mapper().login(logId,logPwd));
-
-                        if (result != null){
-                            System.out.println("Login Success!!");
-                            uv.userView();
-                        } else if(result == null){
-                            System.out.println("Login Fail!!");
-                        }
+                     User user = us.login();
+                     uv.userPage(user);
                     break;
 
                 default:

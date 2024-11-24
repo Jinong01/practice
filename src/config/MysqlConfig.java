@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class MysqlConfig {
-    public SqlSession mysqlConnect() throws IOException{
+    public static SqlSession mysqlConnect() throws IOException{
         String resource = "mybatis-config.xml";
         InputStream resourceAsStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
