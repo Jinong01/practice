@@ -1,13 +1,10 @@
 package View;
 import pojo.User;
 import service.UserService;
-import com.mysql.cj.jdbc.integration.c3p0.MysqlConnectionTester;
-import service.UserService;
-
 import java.io.IOException;
 import java.util.Scanner;
 
-import static service.UserService.mapper;
+
 
 public class UserVIew {
     public Scanner sc = new Scanner(System.in);

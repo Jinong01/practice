@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69f6e875-d5ea-40dc-962b-fbe03eae8d9b" name="Changes" comment="Practice">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/UserVIew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/UserVIew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/MysqlConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/MysqlConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
-    </list>
+    <list default="true" id="69f6e875-d5ea-40dc-962b-fbe03eae8d9b" name="Changes" comment="Practice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732385700151</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Practice">
+      <option name="closed" value="true" />
+      <created>1732436087774</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732436087774</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

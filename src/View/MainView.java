@@ -1,16 +1,10 @@
 package View;
 
-import Mapper.UserMapper;
-
-import org.apache.ibatis.annotations.Insert;
 import pojo.User;
 import service.UserService;
 
 import java.io.IOException;
-import java.sql.PreparedStatement;
 import java.util.Scanner;
-
-import static service.UserService.*;
 
 public class MainView {
     public Scanner sc = new Scanner(System.in);

@@ -1,8 +1,6 @@
 package service;
 
 import Mapper.UserMapper;
-import View.MainView;
-import View.UserVIew;
 import config.MysqlConfig;
 import org.apache.ibatis.session.SqlSession;
 import pojo.User;

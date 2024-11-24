@@ -3,7 +3,7 @@ package Mapper;
 import org.apache.ibatis.annotations.*;
 import pojo.User;
 
-import java.sql.ResultSet;
+
 
 public interface UserMapper {
 
